@@ -7,7 +7,7 @@ pipeline {
     NODEJS_HOME = tool 'NodeJS' // Asegúrate de que coincida con el nombre configurado en Jenkins
     PATH = "${NODEJS_HOME}/bin:${env.PATH}"
     NPM_HOME = "${NODEJS_HOME}/bin"
-    PATH = "${NPM_HOME}:${env.PATH}"
+    //PATH = "${NPM_HOME}:${env.PATH}"
   }
 
   stages{
