@@ -5,7 +5,7 @@ pipeline {
 
   environment {
     NODEJS_HOME = tool 'NodeJS' // Asegúrate de que coincida con el nombre configurado en Jenkins
-    CHROME_BIN = "${NODEJS_HOME}/usr/bin/google-chrome"
+    CHROME_BIN = "/usr/bin/google-chrome"
     PATH = "${NODEJS_HOME}/bin:${env.PATH}"
     NPM_HOME = "${NODEJS_HOME}/bin"
     //PATH = "${NPM_HOME}:${env.PATH}"
